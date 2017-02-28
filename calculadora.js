@@ -5,7 +5,7 @@ $( function() {
     // drag = $( "#lista" ).children().draggable(hello());
     $( "#lista" ).children().draggable({
   drag: function( event, ui ) {
-    $(this).append($(this).clone().one());
+    // $(this).append($(this).clone().one());
     //$(this).clone().append("<h1>rve</h1>");
   }
 
